@@ -11,6 +11,7 @@
 | :--- | :---: | :--- | :--- |
 | `<leader>ff` | `n` | Find files by name | [telescope.lua](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/telescope.lua) |
 | `<leader>fg` | `n` | Live grep (search text inside files) | [telescope.lua](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/telescope.lua) |
+| `<leader>ft` | `n` | Theme switcher (with live preview) | [telescope.lua](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/telescope.lua) |
 
 ---
 

@@ -21,6 +21,13 @@ return {
         end,
         desc = "For greping stuff",
       },
+      {
+        "<leader>ft",
+        function()
+          require("telescope.builtin").colorscheme({ enable_preview = true })
+        end,
+        desc = "Find / Switch theme",
+      },
     },
     config = function()
       require("telescope").setup({

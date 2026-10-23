@@ -12,7 +12,8 @@ Modular and lightweight Neovim setup powered by **lazy.nvim**, featuring LSP sup
 | Plugin / Library | Purpose | Config File |
 | :--- | :--- | :--- |
 | [**lazy.nvim**](https://github.com/folke/lazy.nvim) | Modern plugin manager with lazy-loading support | [`lazy.lua`](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/config/lazy.lua) |
-| [**catppuccin/nvim**](https://github.com/catppuccin/nvim) | Catppuccin Mocha theme | [`catppuccin.lua`](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/catppuccin.lua) |
+| [**neanias/everforest-nvim**](https://github.com/neanias/everforest-nvim) | Everforest natural green theme (active) | [`everforest.lua`](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/themes/everforest.lua) |
+| [**catppuccin/nvim**](https://github.com/catppuccin/nvim) | Soothing pastel theme | [`catppuccin.lua`](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/themes/catppuccin.lua) |
 | [**nvim-lualine/lualine.nvim**](https://github.com/nvim-lualine/lualine.nvim) | Minimal, fast statusline | [`lualine.lua`](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/lualine.lua) |
 | [**akinsho/bufferline.nvim**](https://github.com/akinsho/bufferline.nvim) | Tab/buffer line with numbering and LSP indicators | [`tabs.lua`](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/tabs.lua) |
 | [**nvim-treesitter/nvim-treesitter**](https://github.com/nvim-treesitter/nvim-treesitter) | Advanced syntax highlighting and code parsing | [`treesitter.lua`](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/treesitter.lua) |
@@ -44,6 +45,7 @@ Modular and lightweight Neovim setup powered by **lazy.nvim**, featuring LSP sup
 | :--- | :---: | :--- |
 | `<leader>ff` | `n` | Find files ([Telescope](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/telescope.lua)) |
 | `<leader>fg` | `n` | Live grep inside files ([Telescope](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/telescope.lua)) |
+| `<leader>ft` | `n` | Theme switcher with live preview ([Telescope](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/telescope.lua)) |
 | `<C-b>` | `n` | Toggle file explorer sidebar ([Neo-tree](file:///C:/Users/Ayandip/AppData/Local/nvim/lua/plugins/neotree.lua)) |
 | `<leader>h` | `n` | Clear search highlight (`:nohlsearch`) |
 
