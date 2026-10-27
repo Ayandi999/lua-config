@@ -25,14 +25,17 @@ return {
 
 			local horizontal = Terminal:new({
 				direction = "horizontal",
+				dir = ".",
 			})
 
 			local vertical = Terminal:new({
 				direction = "vertical",
+				dir = ".",
 			})
 
 			local floating = Terminal:new({
 				direction = "float",
+				dir = ".",
 			})
 
 			vim.keymap.set("n", "<leader>th", function()
