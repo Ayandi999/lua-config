@@ -25,19 +25,19 @@ return {
 			keymaps = {
 				widget = {
 					change_mode = {
-						{ "<S-Tab>", mode = { "i", "n", "v" } },
+						{ "<S-Tab>", mode = { "n", "v" } },
 					},
 					switch_model = {
-						{ "<localLeader>m", mode = { "n", "i" } },
-						{ "<leader>am", mode = { "n", "i" } },
+						{ "<localLeader>m", mode = { "n" } },
+						{ "<leader>am", mode = { "n" } },
 					},
 					change_thought_level = {
-						{ "<localLeader>t", mode = { "n", "i" } },
-						{ "<leader>at", mode = { "n", "i" } },
+						{ "<localLeader>t", mode = { "n" } },
+						{ "<leader>at", mode = { "n" } },
 					},
 					open_options = {
-						{ "<localLeader>o", mode = { "n", "i" } },
-						{ "<leader>ao", mode = { "n", "i" } },
+						{ "<localLeader>o", mode = { "n" } },
+						{ "<leader>ao", mode = { "n" } },
 					},
 				},
 			},
@@ -89,7 +89,7 @@ return {
 				function()
 					require("agentic").toggle()
 				end,
-				mode = { "n", "v", "i" },
+				mode = { "n", "v" },
 				desc = "Toggle Antigravity Chat",
 			},
 		},
